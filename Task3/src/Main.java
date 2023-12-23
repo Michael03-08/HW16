@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    static  private final String VALID_CHAR = "([А-я]+\\s){2}([А-я]+)";
+    static  private final String VALID_CHAR = "(([А-яЁёЙй]+)|([А-яЁёЙй-]+)\\s){2}(([А-яЁёЙй]+)|([А-яЁёЙй-]+))";
     public static void main(String[] args) {
         //todo ФИО
         System.out.print("Введите ФИО: ");
